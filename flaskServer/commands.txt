@@ -5,3 +5,8 @@ FLASK_APP=app.py FLASK_DEBUG=1 flask run
 / http -v POST localhost:5000/sign-up name="YeraLee" email="year@gmail.com" password="test123"
 
 / http -v POST localhost:5000/tweet id:=1 tweet="winner is me"
+
+/ http -v POST localhost:5000/follow id:=1 follow:=2
+
+/ http -v GET localhost:5000/timeline/1
+
