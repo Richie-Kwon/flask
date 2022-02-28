@@ -1,0 +1,18 @@
+brew install mysql
+
+/ setting up password
+mysql_secure_installation 
+
+/ run
+mysql.server start
+
+/ status
+mysql.server status
+
+/ stop running
+mysql.server stop
+
+/ mysql -u root -p
+
+/ exit 
+exit
