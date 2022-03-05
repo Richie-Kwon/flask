@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 from sqlalchemy import create_engine, text
 
-
+# factory function: create_app
 def create_app(test_config=None):
     app = Flask(__name__)
 
