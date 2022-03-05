@@ -2,7 +2,7 @@ FLASK_APP=app.py FLASK_DEBUG=1 flask run
 
 / http -v GET http://localhost:5000/ping
 
-/ http -v POST localhost:5000/sign-up name="YeraLee" email="year@gmail.com" password="test123"
+/ http -v POST "http://localhost:5000/sign-up" name=YeraLee email=year@gmail.com password=test123 profile="BlackBird"
 
 / http -v POST localhost:5000/tweet id:=1 tweet="winner is me"
 
